@@ -2,17 +2,38 @@ html {
     font-family: Verdana;
     font-size: 16px;
     background-color: black;
+    text-align: center;
 }
 h1 {
     color: white;
     font-size: 3.12rem;
-    text-align: center;
     font-weight: normal;
 }
 a {
-    text-align: center;
     color: aquamarine;
 }
-.link {
-    text-align: center;
+
+h2 {
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 300; 
+}
+
+h3 {
+    color:gray;
+    font-size: 1.31rem;
+    font-weight: normal;
+}
+.icon {
+    margin-top: 2rem;
+}
+footer {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+i {
+    color: gray;
+    
 }
